@@ -23,5 +23,5 @@ python3 task2.py -o $output_dir // Default is ./ptt_articles
 每本書為一個檔案,檔案名稱為書名，每本書需抓取標題、作者、時間、內文。
 ### How to start
 ``` bash
-python3 task3.py -o $output_dir // Default is ./gutenberg books
+python3 task3.py -o $output_dir // Default is ./gutenberg_books
 ```

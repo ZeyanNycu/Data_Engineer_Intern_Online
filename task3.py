@@ -98,7 +98,7 @@ def crawl_gutenberg_books(output_dir):
 if __name__ == "__main__":
     # 創建資料夾來儲存文章
     parser = argparse.ArgumentParser(description="Crawl gutenberg books and comments.")
-    parser.add_argument('--output_dir', type=str, default='./gutenberg books', help="Directory to save post files.")
+    parser.add_argument('--output_dir', type=str, default='./gutenberg_books', help="Directory to save post files.")
     
     args = parser.parse_args()
     
